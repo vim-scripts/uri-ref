@@ -3,6 +3,7 @@
 " Copyright (c) 2001 Hugo Haas
 " 23 Feb 2001 version
 " I hereby put this code in the public domain.
+" Documentation at: http://larve.net/people/hugo/2001/02/email-uri-refs/
 " --------------------------------------------
 
 " Insert a reference at the cursor position
