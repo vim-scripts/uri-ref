@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=76
+
+Inline URIs in emails make the text around them obscure. This is why I put references to URIs at the bottom of the email.
+
+This script provides a prompt to do so in a painless way.
+
+Examples and documentation are at: http://larve.net/people/hugo/2001/02/email-uri-refs/
