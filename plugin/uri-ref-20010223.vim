@@ -1,7 +1,7 @@
 " -------------------------------------------
 " Commands for quoting URIs in emails
 " Copyright (c) 2001 Hugo Haas
-" 23 Feb 2001 version
+" 10 September 2001 version
 " I hereby put this code in the public domain.
 " Documentation at: http://larve.net/people/hugo/2001/02/email-uri-refs/
 " --------------------------------------------
@@ -36,9 +36,9 @@ function ConvertToRef()
   call AskNumber()
   execute "normal cf>[\<C-R>r]\<ESC>G"
   ?^-- $
-  execute "normal O\<ESC>"
   set paste
-  execute "normal px0x>>i\<C-R>r. \<ESC>`r"
+  execute "normal O  \<ESC>"
+  execute "normal a\<C-R>r. \<ESC>px0f.2 x`r"
   set nopaste
 endfunction
 
