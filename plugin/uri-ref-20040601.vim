@@ -1,7 +1,7 @@
 " -------------------------------------------
-" Commands for quoting URIs in emails
+" Commands for quoting URLs in emails
 " Copyright (c) 2001-2004 Hugo Haas
-" 2004-05-28 version
+" 2004-06-01 version
 " I hereby put this code in the public domain.
 " Documentation at: http://larve.net/people/hugo/2001/02/email-uri-refs/
 " --------------------------------------------
@@ -53,7 +53,6 @@ function AskNumber() abort
   if ( l:number != "" )
     let b:refNumber = l:number
   endif
-  echo b:refNumber
   let @r = b:refNumber
 endfunction
 
