@@ -1,7 +1,7 @@
 " -------------------------------------------
 " Commands for quoting URLs in emails
-" Copyright (c) 2001-2004 Hugo Haas
-" 2004-06-01 version
+" Copyright (c) 2001-2006 Hugo Haas
+" 2006-11-01 version
 " I hereby put this code in the public domain.
 " Documentation at: http://larve.net/people/hugo/2001/02/email-uri-refs/
 " --------------------------------------------
@@ -29,7 +29,7 @@ function InsertRef() abort
     normal `rf]l
     startinsert
   endif
-endfuntion
+endfunction
 
 " Convert <http://example.com> into a reference
 function ConvertToRef() abort
